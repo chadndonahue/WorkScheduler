@@ -29,7 +29,7 @@ $(document).ready(function() {
     var interval = setInterval(checkHour, 15000);
     $("#currentDay").text(moment().format('dddd, MMM Do'));
 
-    $("#hour-9 .description").val(localStorage.getItem("hour-9"));
+    $("#hour-9 .description").val(localStorage.getItem("hour-09"));
     $("#hour-10 .description").val(localStorage.getItem("hour-10"));
     $("#hour-11 .description").val(localStorage.getItem("hour-11"));
     $("#hour-12 .description").val(localStorage.getItem("hour-12"));
